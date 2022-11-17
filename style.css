@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #dedede;
+}
+.container {
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+}
+.container .title {
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+    background-color: #485550;
+    color: #fff;
+}
+.controls {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.container .controls button {
+    width: 100px;
+    padding: 15px 0px;
+    background-color: #485550;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.container .controls button:hover {
+    background-color: #404040;
+}
+.container .controls .color {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid #485550;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.container .controls .color:hover {
+    transform: scale(1.5);
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.controls .color-picker {
+    width: 70px;
+    height: 50px;
+}
+.container .controls .pen-size {
+    width: 150px;
+    height: auto;
+    accent-color: #485550;
+}
+
+
